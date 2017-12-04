@@ -22,5 +22,8 @@ int main()
 		if(!ispunct(c))
 			s1 += c;
 	cout << s1 << endl;
+
+	string s2 = string(12, 'o');
+	cout << s2 << endl;
 	return 0;
 }
